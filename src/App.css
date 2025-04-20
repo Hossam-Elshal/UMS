@@ -1,0 +1,34 @@
+.login-container{
+    background: linear-gradient(to right, rgba(254,157,0,0.9), rgba(254,157,0,0.7))
+}
+.profileImg{
+    width: 100px;
+}
+
+.sidebarContainer{
+    background-color: #F2EAE1; 
+    height: 100%;
+} 
+.sidebarContainer .ps-sidebar-container{
+    background-color: transparent;
+}
+/* sidebar ========================*/
+.masterContainer {
+    display: flex;
+}
+.fixed-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1000;
+    transition: width 0.3s ease;
+    background-color: #F2EAE1;
+    overflow-y: auto;
+}
+.page-content {
+    flex: 1;
+    padding: 1rem;
+    transition: margin-left 0.3s ease;
+}
+
