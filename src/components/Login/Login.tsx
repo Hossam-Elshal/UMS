@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
-import { AuthContext } from '../../assets/context/AuthContext';
+import { AuthContext } from '../context/AuthContext';
 
 export default function Login() {
 

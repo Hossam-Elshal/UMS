@@ -2,7 +2,7 @@ import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import { NavLink, useNavigate } from 'react-router-dom';
 import profileImg from '../../assets/images/profile.jpeg';
 import { useContext } from 'react';
-import { AuthContext } from '../../assets/context/AuthContext';
+import { AuthContext } from '../context/AuthContext';
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight, FaHome, FaUsers } from 'react-icons/fa';
 import { CgProfile } from 'react-icons/cg';
 import { IoMdPersonAdd } from 'react-icons/io';
